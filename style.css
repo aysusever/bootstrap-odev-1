@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+}
+
+.top-container{
+background-image: url(https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+background-repeat: no-repeat;
+height: 100vh;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navbar img {
+    background-color: transparent;
+    border-radius: 50%;
+    /* margin-left: 15px; */
+}
+.top-container h1 {
+color: #925e5e;
+font-size: 50px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 2px;
+}
+.container h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.text {
+    margin:50px 5% ;
+    font-family: sans-serif;
+}
+
+.navbar {
+background-color: rgb(60, 55, 55);
+display: flex;
+width: 100%;
+ justify-content: space-between; 
+box-shadow:0 4px 8px rgba(0, 0, 0, .3) ;
+} 
+.navbar a{
+    margin-left: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type:none ;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: rgb(206, 182, 182);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    font-size: x-large;
+} 
+
+.logo {
+    width: 150px;
+}
+.navbar ul li a:hover{
+    color: #925e5e;
+}
+
+.navbar.active {
+    background-color: rgb(60, 55, 55);
+}
+
+.homepage-img {
+    width: 50%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom-container h2 a {
+    text-decoration: none;
+    /* margin:  0 10px; */
+    justify-content: center;
+
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    font-weight: lighter;
+    display: flex;
+}
+
+.bottom-container h2 a:hover{
+color: #925e5e;
+}
+
+.top-container-contact {
+background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+background-repeat: no-repeat;
+height: 50vh;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact-information {
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.contact-information a {
+
+    text-decoration: none;
+    color: #925e5e;
+    font-size: larger;
+}
+.contact-information a:hover {
+
+    text-decoration-style: wavy;
+    color: #530f0f;
+    /* font-size: xx-large; */
+}
+.contact-information i {
+    color: #925e5e;
+    font-size: 20px;
+    
+}
+.menu-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  align-items: center;
+  display: block;
+  width: 200px;
+  height: 500px;
+
+
+  /* margin-left: 30px; */
+}
+.menu-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,3);
+}
+.menu-images {
+    border-radius: 5px 5px 0 0;
+}
+.card-title:hover{
+    color: black;
+}
+.container-menu {
+    padding: 2px 16px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+}
+
+.container-menu a {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: none;
+color: black;    
+
+}
+.container-menu:hover{
+    cursor: pointer;
+}
+table {
+margin-left:auto ;
+margin-right: auto;
+text-align: center;
+}
+
+.jumbotronstyle {
+    background-color:#E9ECEF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.jumbotronstyle a {
+    color:#925e5e
+}
+
+footer {
+    color: #5a5a5a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* display: flex; */
+    float: right;
+    margin-right: 50px;
+
+}
+footer a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
